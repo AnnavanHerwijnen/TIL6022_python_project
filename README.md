@@ -14,33 +14,41 @@ This README explains how we safely work on this project using GitHub.
 
 ---
 
-## 2. Basic Workflow 
+## 2. Basic Workflow (Safe for Beginners)
 
-1. **Pull** the latest version from GitHub before starting work.  
-   - This ensures you have the newest files.  
+### Step 1: Start
+1. **Pull** the latest version from main before starting work.  
+2. **Create your branch** for your task:  
+   - Branch name example: `feature-login` or `data-cleaning`  
+   - This keeps main safe and allows testing before merging.
 
-2. **Work** on your Python files in your local project folder.  
+### Step 2: Work
+- Work on your Python files in your branch on your computer.  
 
-3. **Commit** your changes (save a snapshot) with a short note describing what you did.  
+### Step 3: Save & Upload
+1. **Commit** your changes with a short note (like “Added analysis diagram”).  
+2. **Push** your branch to GitHub.
 
-4. **Push** your changes to GitHub so everyone else can see them.  
-
-> On GitHub Desktop, these are just buttons:  
-> - Pull = “Fetch origin / Pull”  
-> - Commit = “Commit to main”  
-> - Push = “Push origin”
+### Step 4: Merge
+- On GitHub, **create a Pull Request (PR)** from your branch to main.  
+- The **someone checks** the code:  
+  - If it works, merge into main.  
+  - If it’s broken, PR stays open until fixed.  
+- Main always stays **working and stable**.
 
 ---
 
 ## 3. Safety Rules
-- Always **pull before pushing**.  
-- Don’t delete the repo or folders.  
-- Don’t rename files randomly.  
-- If two people edit the same file at the same time, **tell the owner** to help resolve conflicts.  
+- **Never work directly on main.** Always create your own branch.  
+- **Pull main before starting a new branch** to get the latest code.  
+- Don’t delete files randomly or overwrite others’ branches.  
+- Ask the owner for help if a conflict happens.  
 
 ---
 
-## 4. Optional (for later, advanced use)
-- Each person can create a **branch** for their feature.  
-- Then make a **Pull Request** → owner checks and merges into main.  
-- For now, it’s okay to commit directly to main if small and careful.
+## 4. Tip for Beginners
+- Using **GitHub Desktop** makes this very easy:  
+  - Pull = “Fetch origin / Pull”  
+  - Commit = “Commit to [branch name]”  
+  - Push = “Push origin”  
+  - Create PR on GitHub website
