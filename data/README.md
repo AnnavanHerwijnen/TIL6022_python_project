@@ -3,7 +3,8 @@ This folder contains the data for the project.
 There are 4 datasets available for this project:
 
 KNMI data: 
-CSV files for all weather stations in the Netherlands for the time 2020-2024.
+CSV files for all weather stations in the Netherlands are available.
+Currently only the weather data for De Bilt for the time 2020-2024 is added to the github.
 
 Translink data:
 CSV files for the number of daily check in for NS trains for the time 2020-2025.
