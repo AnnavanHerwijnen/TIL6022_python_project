@@ -10,7 +10,7 @@ CSV files for the number of daily check in for NS trains for the time 2020-2025.
 
 OV-fiets data:
 CSV files for data on the availability of NS rental bikes on each station throughout the day. 
-This data is available from 2015-2024, but currently only one month in 2017 is added to the github, because of the big amount of files.
+This data is available from 2015-2024, but currently only one day in 2017 is added to the github, because of size of the files.
 
 MPN data:
 A dataset from the Dutch mobility panel, which runs from 2013-2022 
