@@ -1,0 +1,41 @@
+# Opmerking: door stationsverplaatsingen en veranderingen in waarneemmethodieken zijn deze tijdreeksen van uurwaarden mogelijk inhomogeen! Dat betekent dat deze reeks van gemeten waarden niet geschikt is voor trendanalyse. Voor studies naar klimaatverandering verwijzen we naar de gehomogeniseerde dagreeksen <http://www.knmi.nl/nederland-nu/klimatologie/daggegevens> of de Centraal Nederland Temperatuur <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/centraal-nederland-temperatuur-cnt>.
+# 
+# SOURCE: ROYAL NETHERLANDS METEOROLOGICAL INSTITUTE (KNMI)
+# Comment: These time series are inhomogeneous because of station relocations and changes in observation techniques. As a result these series are not suitable for trend analysis. For climate change studies we refer to the homogenized series of daily data <http://www.knmi.nl/nederland-nu/klimatologie/daggegevens> or the Central Netherlands Temperature <http://www.knmi.nl/kennis-en-datacentrum/achtergrond/centraal-nederland-temperatuur-cnt>.
+# 
+# STN         LON(east)   LAT(north)  ALT(m)      NAME
+# 260         5.180       52.100      1.90        De Bilt     
+# TG        : Etmaalgemiddelde temperatuur (in 0.1 graden Celsius) / Daily mean temperature in (0.1 degrees Celsius)
+# TN        : Minimum temperatuur (in 0.1 graden Celsius) / Minimum temperature (in 0.1 degrees Celsius)
+# TX        : Maximum temperatuur (in 0.1 graden Celsius) / Maximum temperature (in 0.1 degrees Celsius)
+# STN,YYYYMMDD,   TG,   TN,   TX
+  260,20231101,  122,   96,  154
+  260,20231102,  109,   80,  142
+  260,20231103,   95,   76,  122
+  260,20231104,   94,   79,  106
+  260,20231105,  104,   92,  122
+  260,20231106,   98,   87,  121
+  260,20231107,   96,   75,  125
+  260,20231108,   93,   77,  106
+  260,20231109,   94,   68,  115
+  260,20231110,   74,   57,   86
+  260,20231111,   75,   55,  102
+  260,20231112,   53,   23,   84
+  260,20231113,  102,   35,  153
+  260,20231114,  119,  100,  135
+  260,20231115,  110,   99,  136
+  260,20231116,   68,   30,  102
+  260,20231117,   51,   22,  103
+  260,20231118,   83,   41,  138
+  260,20231119,  124,  112,  139
+  260,20231120,   98,   43,  123
+  260,20231121,   72,   22,  105
+  260,20231122,   46,    7,   89
+  260,20231123,  112,   84,  133
+  260,20231124,   64,   50,   89
+  260,20231125,   50,    5,   84
+  260,20231126,   50,   -6,   74
+  260,20231127,   42,   18,   56
+  260,20231128,   21,   -2,   45
+  260,20231129,   24,   -4,   46
+  260,20231130,   -3,  -18,    9
