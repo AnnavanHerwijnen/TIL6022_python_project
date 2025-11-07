@@ -1,21 +1,26 @@
 # TIL6022_python_project
 A repository containing the files for the group project for the TIL6022 course Python Programming.
 
+## Project description
+This project tries to find a correlation between 2 types of transport modes and daily weather patterns. Train usage and rental bike usage are compared to daily weather patterns. 
 
-## Basic Workflow 
+# Data analysis pipeline
+The folder data contains the necessary data files to reproduce the project. Note that for the ov-bike data, only the processed .parquet files are available through the github, the original datafiles are very large and were downloaded from a website.
 
-1. **Pull** the latest version from GitHub before starting work.  
-   - This ensures you have the newest files.  
+The folder intermediary plots contains code for plots that are not used in the final report.
 
-2. **Work** on your Python files in your local project folder.  
+The folder ov-fiets dataprocessing contains the code to download the ov-bike data from the origin website and process it to create the smaller .parquet files.
 
-3. **Commit** your changes (save a snapshot) with a short note describing what you did.  
+The folder plots contains the .png files of the plots used in the final report.
 
-4. **Push** your changes to GitHub so everyone else can see them.  
+The rest of the main branch contains the final report and the code to create the plots for the main results of the project. Meaning the code for the correlation plots and the code for a map of all the weather and ov-bike locations.
 
-> On GitHub Desktop, these are just buttons:  
-> - Pull = “Fetch origin / Pull”  
-> - Commit = “Commit to main”  
-> - Push = “Push origin”
+# Author information
+
+AnnavanHerwijnen -- Anna van Herwijnen
+NBrodbelt -- Nicolar David Brodbelt Lopez
+greta.sch4-commits -- Greta Nikolova
+Manasaht31 -- Manasa Hemalatha Thirumal
+Zitong22 -- Zitong Zeng
 
 
